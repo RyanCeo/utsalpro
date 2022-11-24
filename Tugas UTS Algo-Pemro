@@ -1,0 +1,17 @@
+public class MyClass{
+    public static void main(String[] args){
+
+        String nama = "Nama Saya :";
+        String firstName = "Ryan";
+        String lastName = "Mulyadi";
+        String full = nama + firstName + lastName;
+
+        int myYearBorn = 2003;
+        String lahir ="Saya Lahir di Tahun :";
+        
+        System.out.println("Assalamu'alaikum");
+        System.out.println(full); 
+        System.out.println(lahir + myYearBorn);
+    }
+
+}
