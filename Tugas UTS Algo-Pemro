@@ -8,10 +8,11 @@ public class MyClass{
 
         int myYearBorn = 2003;
         String lahir ="Saya Lahir di Tahun :";
+        String tahunLahir = myYearBorn + lahir;
         
         System.out.println("Assalamu'alaikum");
         System.out.println(full); 
-        System.out.println(lahir + myYearBorn);
+        System.out.println(tahunLahir);
     }
 
 }
